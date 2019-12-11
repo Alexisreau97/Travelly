@@ -1,0 +1,50 @@
+/* Components */
+
+@import url("components/landing.css");
+@import url("components/locations_section.css");
+@import url("components/benefits_section.css");
+@import url("components/contact_section.css");
+@import url("components/footer.css");
+
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 2.6rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+h4,
+h5 {
+  font-size: 2rem;
+}
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 888px) {
+  html {
+    font-size: 45%;
+  }
+}

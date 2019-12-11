@@ -1,0 +1,36 @@
+footer {
+  color: #fff;
+  background: #131c27;
+}
+
+.footer_wrapper {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  align-items: center;
+  min-height: 10vh;
+  flex-wrap: wrap;
+}
+.footer_wrapper h5 {
+  flex: 1 1 40rem;
+}
+.footer_wrapper ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+@media screen and (max-width: 888px) {
+  .form_wrapper {
+    width: 90%;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h5 {
+    padding-bottom: 2rem;
+  }
+}
